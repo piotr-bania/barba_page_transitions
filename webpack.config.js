@@ -45,9 +45,19 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Test | ThreeJS',
+            title: 'Barba | Page transitions',
             filename: 'index.html',
-            template: 'src/template.html'
+            template: 'src/index.html'
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Barba | Page transitions',
+            filename: 'blog.html',
+            template: 'src/blog.html'
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Barba | Page transitions',
+            filename: 'about.html',
+            template: 'src/about.html'
         })
     ]
 }
